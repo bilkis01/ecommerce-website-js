@@ -10,7 +10,7 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
+
 </head>
 
 <body>
@@ -25,9 +25,14 @@
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><img src="img/shop-logo.jpg" class="cart-logo" alt=""></a></li>
+                <li><a href="cart.html"><img src="img/shop-logo.jpg" id="lg-bag" class="cart-logo" alt=""></a></li>
+                <a href="#" id="close"><img src="img/cls.png" class="cart-logo" alt=""></a>
             </ul>
 
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><img src="img/shop-logo.jpg" class="cart-logo" alt=""></a>
+            <img src="img/menu.png" id="bar" class="cart-logo" alt="">
         </div>
 
     </section>
@@ -356,7 +361,7 @@
         </div>
         <div class="col install">
             <h4>Install App</h4>
-           <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
             <div class="row">
                 <img src="img/pay/app.jpg" alt="">
                 <img src="img/pay/play.jpg" alt="">
@@ -369,7 +374,7 @@
         </div>
     </footer>
 
-
+    <script src="script.js"></script>
 
 </body>
 
